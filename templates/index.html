@@ -1,0 +1,39 @@
+{% include "header.html" %}
+
+<img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='img/victor.png') }}" alt="" width="120" height="120">
+        <h1 class="display-6 fw-bold text-white">Victor Martino</h1>
+        <div class="col-lg-8 mx-auto">
+          <p class="lead mb-4" style="font-size: 17px;">Hey there! I'm a versatile Python developer with a strong foundation in data analysis, web development, and machine learning. Proficient in tools like Tkinter, Flask, Pandas, Numpy, Matplotlib and more, I've crafted 20+ projects on GitHub, where I exhibit my creativity and adept problem-solving. I'm all set to embrace any challenge or opportunity in the Python development realm.</p>
+        </div>
+        <div class="col-4 text-center mx-auto">
+            <h4 class="mt-5 mb-3">Contact me</h4>
+        </div>
+        <div class="row justify-content-center">
+                <div class="col-3 d-flex justify-content-between">
+                    <div class="icon-container">
+                        <a href="https://www.linkedin.com/in/victor-martino-446765140/">
+                            <img alt="LinkedIn" src="static/img/linkedin.svg" style="filter: brightness(0) invert(1); height: 30px;">
+                        </a>
+                        </div>
+                    <div class="icon-container">
+                        <a href="{{url_for('unavailable')}}">
+                            <img alt="WhatsApp" src="static/img/whatsapp.svg" style="filter: brightness(0) invert(1); height: 30px;">
+                        </a>
+                        </div>
+                    <div class="icon-container">
+                        <a href="{{url_for('unavailable')}}">
+                            <img alt="E-mail" src="static/img/envelope-open-fill.svg" style="filter: brightness(0) invert(1); height: 30px;">
+                        </a>
+                        </div>
+                    <div class="icon-container">
+                        <a href="https://github.com/victormartino">
+                            <img alt="Github" src="static/img/github.svg" style="filter: brightness(0) invert(1); height: 30px;">
+                        </a>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+{% include "footer.html" %}
