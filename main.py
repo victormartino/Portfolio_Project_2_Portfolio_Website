@@ -13,5 +13,9 @@ def unavailable():
     return render_template("unavailable.html")
 
 
+@app.route('/projects')
+def projects():
+    return render_template("projects.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
