@@ -13,15 +13,5 @@ def unavailable():
     return render_template("unavailable.html")
 
 
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     app.run(debug=True)
