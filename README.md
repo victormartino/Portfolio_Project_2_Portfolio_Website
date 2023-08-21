@@ -9,12 +9,6 @@
   Welcome to my PortfolioHub! This repository showcases a simple portfolio website built using Flask and Bootstrap, featuring information about me and my skills.
 </p>
 
-<!-- Table of Contents -->
-## Table of Contents
-
-- [Contact](#contact)
-
-<!-- Contact -->
 ## Contact
 
 Feel free to connect with me:
