@@ -2,7 +2,7 @@
 <p align="center">
   <img src="static/img/victor.png" alt="Victor Martino" width="120" height="120">
 </p>
-<h1 align="center">Victor Martino's PortfolioHub</h1>
+<h1 align="center">PortfolioHub</h1>
 
 <!-- Description -->
 <p align="center">
